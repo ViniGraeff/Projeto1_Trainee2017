@@ -1,81 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
-
 	<head>
-		<title>Millena Kupsinskü Martins</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Millena Kupsinskü Martins</title>
+        <link rel="icon" href="img/favicon%20(1).ico">
+        <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-menu.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/script.js"></script>
 	</head>
-	
-	<body>
 
-	<header>
-		
-	</header>
+    <body>
+    <div class="menu"><span onclick="openNav()" class="glyphicon glyphicon-menu-hamburger pointer"></span>
+     <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../Inicial/home.html"><span class="glyphicon glyphicon-home"></span></a>
+            <a href="../Bianca/index.html">Bianca</a>
+            <a href="index.html">Millena</a>
+            <a href="../Suelem/index.html">Suelem</a>
+            <a href="../Vinicius/index.html">Vinicius</a>
+        </div></div>
+	<div class="container">
+        
+        
+       
 
-		<section>
-			<div class="section">
-				<img src="img/me.jpg" class="perfil">
-				<h1 class="title">Millena Kupsinskü Martins</h1>
-			</div>
+        <!-- Use any element to open the sidenav -->
+        
 
-			<div class="section">
-				<h2 class="title">Dados Pessoais</h2>
-				<p><strong>Data de Nascimento:</strong> 12/02/1998</p>
-				<p><strong>Email:</strong> millena.martins@digitaldesk.com.br</p>
-				<p><strong>Telefone:</strong> (51) 99898-0059</p>
-				<p><strong>Facebook:</strong> facebook.com.br/millena.kupsmartins</p>
-				<p><strong>Instagram:</strong> @mikupsinsku</p>
-
-			</div>
-			<div class="section section-1">
-				<h2 class="title">Livros Favoritos</h2>
-				<p>Não Conte a Ninguém</p>
-				<p>É Melhor Não Saber</p>
-				<p>Não Fale com Estranhos</p>
-				<p>Depois de Auschwitz</p>	
-				<p>Caixa de Pássaros</p>
-				<img class="images" src="img/Caixa-de-Passaros.jpg" alt="Caixa de Pássaros">
-			</div>
-			<div class="section section-2">
-				<h2 class="title">Filmes Favoritos</h2>
-				<p>Ilha do Medo</p>
-				<p>Invocação do Mal</p>
-				<p>Seven - Sete Crimes Capitais</p>
-				<p>O Mistério das Duas Irmãs</p>
-				<p>Interestelar</p>
-				<img class="images" src="img/interestelar.jpg" alt="Interestelar">
-			</div>
-
-			<div class="section section-1">
-				<h2 class="title">Bandas Favoritas</h2>
-				<p>U2</p>
-				<p>Arctic Monkeys</p>
-				<p>Birdy</p>
-				<p>Oh Wonder</p>
-				<p>Hozier</p>
-				<p>The Neighbourhood</p>
-				<p>Amber Run</p>
-				<img class="images" src="img/amber_run.jpg" alt="Amber Run">
-			</div>
-			<div class="section section-2">
-				<h2 class="title">Séries Favoritas</h2>
-				<p>Game of Thrones</p>
-				<p>Black Mirror</p>
-				<p>Friends</p>
-				<p>Sherlock</p>
-				<p>Bates Motel</p>
-				<p>Stranger Things</p>
-				<p>Orphan Black</p>
-				<img class="images" src="img/orphan_black.jpg" alt="Orphan Black">
-			</div>
-		</section>
-		<footer>
-			<div class="footer">
-				<p>Trainee 2017 - DigitalDesk</p>
-			</div>
-		</footer>
+		<div class="header" id="painel-nome">
+			<img class="foto-perfil" src="img/me.jpg" alt="Millena K.">
+			<h1>Millena Kupsinskü Martins</h1>
+		</div>
+        
+        <div class="info-title" id="titleInfoBasic">
+            <h3>Informações Básicas</h3>
+        </div>
+        
+        <div class="info-section" id="painelInfoBasic" >
+            <div class="col-md-6">
+                <h3><strong>Dados Pessoais</strong></h3>
+                <p><strong>Data de Nascimento:</strong> 12/02/1998</p>
+                <p><strong>Cidade:</strong> Novo Hamburgo</p>
+                <p><strong>E-mail:</strong> millena.martins@digitaldesk.com.br</p>
+                <p><strong>Telefone:</strong> (51) 99898-0059</p>
+            </div>
+            <div class="col-mdr-6">
+                <h3><strong>Dados Profissionais</strong></h3>
+                <p><strong>Instituição de Ensino:</strong> Fundação Escola Técnica Liberato Salzano Vieira da Cunha</p>
+                <p><strong>Curso:</strong> Técnico em Eletrônica</p>
+                <p><strong>Experiência:</strong> Nenhuma</p>
+                
+            </div>
+        </div>
+        
+        <div class="info-title" id="titleInfoAdc">
+            <h3>Informações Adicionais</h3>
+        </div>
+        
+        <div class="info-section" id="painelInfoAdc" >
+            <div class="col-md-6">
+                <h3><strong>Livros Favoritos</strong></h3>
+                <p>Não Conte a Ninguém</p>
+                <p>É Melhor Não Saber</p>
+                <p>Depois de Auschwitz</p>
+                <p>Garota Exemplar</p>
+                <p>Objetos Cortantes</p>
+                <p>Caixa de Pássaros</p>
+            </div>
+            <div class="col-mdr-6">
+                <h3><strong>Filmes Favoritos</strong></h3>
+                <p>Ilha do Medo</p>
+                <p>Invocação do Mal</p>
+                <p>Bastardos Inglórios</p>
+                <p>A Origem</p>
+                <p>Seven - Sete Crimes Capitais</p>
+                <p>Interestelar</p>  
+            </div>
+            <div class="col-md-6">
+                <h3><strong>Bandas Favoritas</strong></h3>
+                <p>U2</p>
+                <p>Arctic Monkeys</p>
+                <p>Birdy</p>
+                <p>Oh Wonder</p>
+                <p>Hozier</p>
+                <p>The Neighbourhood</p>
+                <p>Amber Run</p>  
+            </div>
+            <div class="col-mdr-6">
+                <h3><strong>Séries Favoritas</strong></h3>
+                <p>Game of Thrones</p>
+                <p>Black Mirror</p>
+                <p>Friends</p>
+                <p>Sherlock</p>
+                <p>Bates Motel</p>
+                <p>Stranger Things</p>
+                <p>Orphan Black</p> 
+            </div>
+        </div>
+        
+         <div class="info-title" id="titleSocial">
+            <h3>Redes Sociais</h3>
+        </div>
+        
+        <div class="info-section" id="painelSocial" >
+            <div class="col-md-3"><img class="social" src="img/github.png"><p>millenakm</p></div>
+            <div class="col-md-3"><img class="social" src="img/facebook.png"><p>millena.kupsinskumartins</p></div>
+            <div class="col-md-3"><img class="social" src="img/insta.png"><p>mikupsinsku</p></div>
+            <div class="col-md-3"><img class="social" src="img/snapchat.png"><p>mikupsinsku</p></div>
+            
+            
+        </div>
+        
+        
+      </div>
 	</body>
 </html>
