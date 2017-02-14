@@ -1,10 +1,3 @@
-
-$(document).ready(function(){
-     $("h1").mouseenter(function(){
-        $("#desaparecer").fadeIn(4000);
-    });
- });
-
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
