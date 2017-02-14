@@ -1,79 +1,188 @@
-div.polaroid {
-  width: 24%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 30px 30px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 0px;
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+html, body, section{
+    font-family: 'Coming Soon', cursive;
 }
 
-div.container {
-  text-align: left;
-  padding: 10px 20px;
-}
+.dadoso{
 
-
-.pai {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 80px;
-    margin-left: 80px;
-}
-
-.pai2 {
-    margin: 0;
-    background-color: lightgrey;
-    width: 550px;
-    border: 5px solid green;
-    padding: 25px;
-    margin: 25px;
-}
-
-.pai3 {
-    margin: 0;
-    background-color: lightgrey;
-    width: 550px;
-    border: 5px solid green;
-    padding: 25px;
-    margin: 25px;
-}
-
-.pai4 {
+    width: 87%;
+    text-align: left;
     margin: 0 auto;
-}
-
-.pai3 p, .pai2 p, .pai5 p{
+    color: white;
     font-size: 20px;
-    font-family: courier;
+    margin-top: 20px;
 }
 
-.pai5 {
-    margin: 0;
-    background-color: lightgrey;
-    width: 550px;
-    border: 5px solid green;
-    padding: 25px;
-    margin: 25px;
+.informacoes h2{
 
+    font-size: 40px;
 }
 
-.pai6 {
-    margin: 0;
+.informacoes p{
+
+    font-size: 25px;
 }
 
-.center {
+.dados{
+
+    width: 60%;
     text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    display: none;   
+}
+
+
+ p {
+    font-size: 25px;
+}
+
+.voltar{
+
+    background:rgba(23,74,183,0.3);
+    box-shadow:0px 0px 20px blue;
+    border-radius: 10px;
+    width: 5%;
+    height: 8px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.contato, .profissionais{
+
+    background:rgba(23,74,183,0.3);
+    box-shadow:0px 0px 20px blue;
+    border-radius: 10px;
+    width: 60%;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 13px;
+    display: none;
+}
+
+.iconface{
+
+    text-align: left;
+    width: 40%;
+
+}
+
+.contato h1{
+    margin: 0;
+    padding: 0;
+}
+
+.paidafoto{
+    display:none;
     margin: auto;
-    width: 600px;
-    padding: 10px;
+    margin-top: 25px;
+    width: 60%;
+    height: 270px;
+    background:rgba(23,74,183,0.3);
+    padding:15px 8px 15px 8px;
+    box-shadow:0px 0px 20px blue;
+    position: relative;   
 }
 
-h1 {color:#4CAF50};
-
-p {
-    font-size:300%;
-    font-family: courier;
+.paidafoto img{
+    width:200px;
+    height:200px;
 }
 
+.paidafoto h1{
+    font-size: 40px;
+}
 
+.meunome{
+    float: right;
+    color: white;
+    margin-right: 60px;
+    margin-top: 70px;
+    font-size: 100px;
+}
 
+.meunome h1{
+    font-size: 45px;
+    
+}
 
-   
+.paidafoto img{
+    margin: 20px 0 0 20px;
+    border-radius: 50%;
+}
+
+body {
+    background-image: url('../img/galaxycerto.png');
+}
+
+#panel, #flip{
+    padding: 5px;
+    text-align: center;
+    background-color: transparent; 
+    border: solid 1px transparent;
+    background:rgba(23,74,183,0.3);
+    box-shadow:0px 0px 20px blue;
+    border-radius: 10px;
+}
+
+#panel{
+    padding: 50px;
+    display: none;
+}
+
+#panel2, #flip2{
+    padding: 5px;
+    text-align: center;
+    background-color: blue; 
+    background:rgba(23,74,183,0.3);
+    box-shadow:0px 0px 20px blue;
+    border: solid 1px transparent;
+    border-radius: 10px;  
+}
+
+#panel2{
+    padding: 50px;
+    display: none;
+    height: 400px;
+}
+
+.col-md-3 img{
+    border-radius: 50%;
+    margin-top: 17px;
+    width:50px; 
+    height: 50px;
+}
+
+.imagens{
+
+    background:rgba(23,74,183,0.3);
+    box-shadow:0px 0px 20px blue;
+    border-radius: 10px;
+    width: 87%;
+    margin: auto;
+    height: 270px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+ .gow img{
+    float: left;
+    margin: 6px 60px 0 0;
+    width: 450px; 
+    height: 250px;
+    border-radius: 10px;
+} 
+ .stranger img{
+    float: right;
+    margin: 6px 0 0 60px;
+    width: 450px; 
+    height: 250px;
+    border-radius: 10px;
+}
