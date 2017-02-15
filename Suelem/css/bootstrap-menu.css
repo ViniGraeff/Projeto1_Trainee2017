@@ -27,6 +27,10 @@
     color: #f1f1f1;
 }
 
+.sidenav .active{
+    color: #0099e6;
+}
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
