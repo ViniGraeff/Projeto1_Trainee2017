@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.centerandcolor p, .centerandcolor h1{
+	font-family: 'Nunito', sans-serif;
+}
+
 .centerandcolor{
 	display: none;
 	border-radius: 12px;
@@ -22,6 +28,10 @@
     border-radius: 50%;
 }
 
+.CENTRALIZA h1{
+	font-family: 'Nunito', sans-serif;
+}
+
 .CENTRALIZA{
 	border-radius: 12px;
 	text-align: center;
@@ -33,6 +43,10 @@
 	color: white;
 	box-shadow:0px 0px 20px #000;
 	display: none;
+}
+
+.colunas p, .colunas h2{
+	font-family: 'Nunito', sans-serif;
 }
 
 .colunas{

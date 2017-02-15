@@ -60,3 +60,8 @@
   color: white;
   margin-top: 20px;
 }
+
+body .pointer{
+    position: fixed;
+  top: 0;
+}
