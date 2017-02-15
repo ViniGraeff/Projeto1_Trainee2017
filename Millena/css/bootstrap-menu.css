@@ -29,6 +29,10 @@
     text-decoration: underline;
 }
 
+.sidenav .active{
+    color: #26a697;
+}
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;

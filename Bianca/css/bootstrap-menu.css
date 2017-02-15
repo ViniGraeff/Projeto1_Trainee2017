@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Sansita');
 
+
 .sidenav {
     font-family: 'Caveat Brush', cursive;
     height: 100%; /* 100% Full-height */
@@ -24,6 +25,10 @@
 }
 
 .sidenav a:hover, .offcanvas a:focus{
+    color: pink;
+}
+
+.sidenav .active{
     color: pink;
 }
 

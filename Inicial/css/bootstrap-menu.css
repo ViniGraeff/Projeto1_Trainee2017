@@ -24,7 +24,11 @@
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #4dffa6;
+}
+
+.sidenav .active{
+  color: #4dffa6;
 }
 
 .sidenav .closebtn {
